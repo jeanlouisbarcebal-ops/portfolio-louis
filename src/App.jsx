@@ -8,11 +8,39 @@ function App() {
         <h1>
           Ciao, sono <span>Louis</span>
         </h1>
-        <p>
-          Sto studiando Front-End Development e costruisco interfacce moderne con
-          JavaScript e React.
-        </p>
+
       </header>
+
+      <section className="about">
+  <div className="about-card">
+    <h2>Chi sono</h2>
+    <p>
+      Ciao, sono Jeanlouis Barcebal. Ho completato un corso di Front-End Developer
+      a maggio presso <strong>LabForWeb (Roma)</strong>.  
+      Sono alla ricerca di una prima opportunità lavorativa per entrare nel
+      settore dello sviluppo web e crescere come sviluppatore.
+    </p>
+
+    <div className="about-info">
+      <div>
+        <span>Nome</span>
+        <strong>BARCEBAL Jeanlouis</strong>
+      </div>
+      <div>
+        <span>Email</span>
+        <strong>weebarcebal@gmail.com</strong>
+      </div>
+      <div>
+        <span>Telefono</span>
+        <strong>327 310 4063</strong>
+      </div>
+      <div>
+        <span>Formazione</span>
+        <strong>Front-End Developer – LabForWeb</strong>
+      </div>
+    </div>
+  </div>
+</section>
 
       <section className="projects">
         <h2>Progetti</h2>
@@ -36,5 +64,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;
