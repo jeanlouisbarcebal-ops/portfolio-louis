@@ -1,14 +1,8 @@
-import Hero from "./components/Hero";
-import Skills from "./components/Skills";
-import Projects from "./components/Projects";
-import "./App.css";
-
 function App() {
   return (
-    <div className="app">
-      <Hero />
-      <Skills />
-      <Projects />
+    <div>
+      <h1>Portfolio Louis</h1>
+      <p>Benvenuto nel mio portfolio</p>
     </div>
   );
 }
