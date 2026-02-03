@@ -14,6 +14,20 @@ function App() {
       <section className="about">
   <div className="about-card">
     <h2>Chi sono</h2>
+
+    <section className="skills">
+  <h2>Competenze</h2>
+
+  <div className="skills-grid">
+    <span className="skill">HTML</span>
+    <span className="skill">CSS</span>
+    <span className="skill">JavaScript</span>
+    <span className="skill">React</span>
+    <span className="skill">Git & GitHub</span>
+    <span className="skill">Responsive Design</span>
+    <span className="skill">Basic UI / UX</span>
+  </div>
+</section>
     <p>
       Ciao, sono Jeanlouis Barcebal. Ho completato un corso di Front-End Developer
       a maggio presso <strong>LabForWeb (Roma)</strong>.  
