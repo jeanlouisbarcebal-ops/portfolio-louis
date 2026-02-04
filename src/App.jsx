@@ -73,6 +73,22 @@ function App() {
               Vedi progetto →
             </a>
           </div>
+
+            <div className="project-card">
+    <h3>Evita la Bomba 💣</h3>
+    <p>
+      Gioco realizzato in JavaScript puro basato su logica, eventi
+      e manipolazione del DOM.
+    </p>
+    <a
+      href="https://jeanlouisbarcebal-ops.github.io/evita-la-bomba/"
+      target="_blank"
+      rel="noreferrer"
+    >
+      Vedi progetto →
+    </a>
+  </div>
+
         </div>
       </section>
     </div>
